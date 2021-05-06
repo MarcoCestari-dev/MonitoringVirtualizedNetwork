@@ -1,1 +1,0 @@
-docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock gaiaadm/pumba netem --duration 10s --interface eth0 delay --time 3000 --jitter 300 --correlation 0 HostC
