@@ -1,1 +1,0 @@
-docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock gaiaadm/pumba netem --interface eth0 --duration 10m loss-state -p13 2 -p31 80 -p32 12 p23 5 p14 11 HostB
