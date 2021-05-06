@@ -1,0 +1,1 @@
+docker stats --no-stream --format "table {{.CPUPerc}}"
