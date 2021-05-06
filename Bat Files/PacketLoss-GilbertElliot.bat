@@ -1,0 +1,1 @@
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock gaiaadm/pumba netem --interface eth0 --duration 10m loss-gemodel -p 3 -r 97 --one-h 98 --one-k 2 HostC
