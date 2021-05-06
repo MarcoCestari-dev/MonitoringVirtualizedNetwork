@@ -1,1 +1,0 @@
-docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock gaiaadm/pumba netem --interface eth0 --duration 10s rate -r 1kbit HostA
