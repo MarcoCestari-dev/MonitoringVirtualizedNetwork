@@ -1,0 +1,1 @@
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock gaiaadm/pumba stress HostA --duration 15s
